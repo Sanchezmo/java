@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Encuesta</title>
+</head>
+<body>
+<form action="Calculadora" method="post">
+
+<p>Titulo :<select name="sexo" id="sexo">
+  <option value="sr">Sr.</option>
+  <option value="sra">Sra.</option></select></p>
+
+<p>Nombre: <input type="text" placeholder="Escriba su nombre" name="nombre" size="20"></p>
+<p>Ciudad: <input type="text" placeholder="Escriba su ciudad" name="city" size="20"></p>
+<p>Pais: <input type="text" placeholder="Escriba su Pais" name="pais"size="20"></p>
+<p>Telefono: <input type="text" placeholder="Escriba nº telefono" name="tlf" pattern="[0-9]{9}" size="9"></p>
+<p> Intereses:</p>
+<P><input type="checkbox" name="check" value="deporte">Deporte</P>
+<P><input type="checkbox" name="check" value="musica">Música</P>
+<P><input type="checkbox" name="check" value="cine">Cine</P>
+<P><input type="checkbox" name="check" value="lectura">Lectura</P>
+<P><input type="checkbox" name="check" value="otros">Otros</P>
+<p>Su edad: <input type="radio" name="radius" value="<=25" required checked>25 or menos<input type="radio" name="radius" value="2640">26 a 40<input type="radio" name="radius" value="4165">41 a 65<input type="radio" name="radius" value=">65">mas 65</p>
+<p><input type="submit" value="presentar"></p>
+
+
+
+
+</form>
+</body>
+</html>
