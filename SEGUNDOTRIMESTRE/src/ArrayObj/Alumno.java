@@ -24,7 +24,7 @@ public class Alumno {
 	}
 	@Override
 	public String toString() {
-		return "Alumno [nombre=" + nombre + ", nota=" + nota + ", codigo=" + codigo + "]";
+		return "Alumno [nombre=" + this.nombre + ", nota=" + nota + ", codigo=" + codigo + "]";
 	}
 	public Alumno(int codigo,String nombre, double nota ) {
 		super();
